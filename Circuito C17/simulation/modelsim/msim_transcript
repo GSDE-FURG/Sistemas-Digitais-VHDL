@@ -1,0 +1,71 @@
+# Reading pref.tcl
+# do Circuito_C17_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/Users/clayt/OneDrive/Documents/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/clayt/Desktop/Circuito C17/Circuito_C17.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:02:04 on Apr 27,2021
+# vcom -reportprogress 300 -93 -work work C:/Users/clayt/Desktop/Circuito C17/Circuito_C17.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Circuito_C17
+# -- Compiling architecture rtl of Circuito_C17
+# End time: 15:02:04 on Apr 27,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/clayt/Desktop/Circuito C17/Porta_Nand.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:02:04 on Apr 27,2021
+# vcom -reportprogress 300 -93 -work work C:/Users/clayt/Desktop/Circuito C17/Porta_Nand.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Porta_NAND
+# -- Compiling architecture comportamento_Porta_NAND of Porta_NAND
+# End time: 15:02:05 on Apr 27,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# Load canceled
+vcom -reportprogress 300 -work work {C:/Users/clayt/Desktop/Circuito C17/TestBench_Circuito_C17.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:02:45 on Apr 27,2021
+# vcom -reportprogress 300 -work work C:/Users/clayt/Desktop/Circuito C17/TestBench_Circuito_C17.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity test_bench_Circuito_C17
+# -- Compiling architecture funcionamento_test_bench of test_bench_Circuito_C17
+# End time: 15:02:45 on Apr 27,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -gui -l msim_transcript work.test_bench_circuito_c17
+# vsim -gui -l msim_transcript work.test_bench_circuito_c17 
+# Start time: 15:03:14 on Apr 27,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.test_bench_circuito_c17(funcionamento_test_bench)
+# Loading work.circuito_c17(rtl)
+# Loading work.porta_nand(comportamento_porta_nand)
+add wave -position insertpoint  \
+sim:/test_bench_circuito_c17/entrada_1_tb \
+sim:/test_bench_circuito_c17/entrada_2_tb \
+sim:/test_bench_circuito_c17/entrada_3_tb \
+sim:/test_bench_circuito_c17/entrada_4_tb \
+sim:/test_bench_circuito_c17/entrada_5_tb \
+sim:/test_bench_circuito_c17/Saida_x_tb \
+sim:/test_bench_circuito_c17/Saida_y_tb
+run
+run
+run
+run
+run
+# End time: 15:09:03 on Apr 27,2021, Elapsed time: 0:05:49
+# Errors: 0, Warnings: 0

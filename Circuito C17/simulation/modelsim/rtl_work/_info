@@ -1,0 +1,134 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/clayt/Desktop/Circuito C17/simulation/modelsim
+Ecircuito_c17
+Z1 w1619537379
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R0
+Z4 8C:/Users/clayt/Desktop/Circuito C17/Circuito_C17.vhd
+Z5 FC:/Users/clayt/Desktop/Circuito C17/Circuito_C17.vhd
+l0
+L8 1
+VIf65XP^HX1n3CVP4YLU5e0
+!s100 f@][QGkH8dz<nb=JYdU9K0
+Z6 OV;C;2020.1;71
+31
+Z7 !s110 1619546524
+!i10b 1
+Z8 !s108 1619546524.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/clayt/Desktop/Circuito C17/Circuito_C17.vhd|
+Z10 !s107 C:/Users/clayt/Desktop/Circuito C17/Circuito_C17.vhd|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Artl
+R2
+R3
+DEx4 work 12 circuito_c17 0 22 If65XP^HX1n3CVP4YLU5e0
+!i122 0
+l33
+L23 26
+VB7TAZCoX>L[B]m[<4gQkI3
+!s100 @cbkogRh5>fBQWRck]@X[1
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eporta_nand
+Z13 w1619531520
+R2
+R3
+!i122 1
+R0
+Z14 8C:/Users/clayt/Desktop/Circuito C17/Porta_Nand.vhd
+Z15 FC:/Users/clayt/Desktop/Circuito C17/Porta_Nand.vhd
+l0
+L11 1
+VYMLHE]8=k7lC?d9S=lgPV2
+!s100 YVRdS4nZ^zhdIKY]`VF`F0
+R6
+31
+Z16 !s110 1619546525
+!i10b 1
+R8
+Z17 !s90 -reportprogress|300|-93|-work|work|C:/Users/clayt/Desktop/Circuito C17/Porta_Nand.vhd|
+Z18 !s107 C:/Users/clayt/Desktop/Circuito C17/Porta_Nand.vhd|
+!i113 1
+R11
+R12
+Acomportamento_porta_nand
+R2
+R3
+DEx4 work 10 porta_nand 0 22 YMLHE]8=k7lC?d9S=lgPV2
+!i122 1
+l27
+L23 11
+V:`oQ^9dh:iSmf=_a0Sh@J1
+!s100 ^YMO^FQUeDU[?b<`ERgc52
+R6
+31
+R16
+!i10b 1
+R8
+R17
+R18
+!i113 1
+R11
+R12
+Etest_bench_circuito_c17
+Z19 w1619536727
+R2
+R3
+!i122 2
+R0
+Z20 8C:/Users/clayt/Desktop/Circuito C17/TestBench_Circuito_C17.vhd
+Z21 FC:/Users/clayt/Desktop/Circuito C17/TestBench_Circuito_C17.vhd
+l0
+L4 1
+V=oZo4Z=X5Z<H4WQQY8haW3
+!s100 0nfbLElH:N?FMSjNTdo[_3
+R6
+32
+Z22 !s110 1619546565
+!i10b 1
+Z23 !s108 1619546565.000000
+Z24 !s90 -reportprogress|300|-work|work|C:/Users/clayt/Desktop/Circuito C17/TestBench_Circuito_C17.vhd|
+!s107 C:/Users/clayt/Desktop/Circuito C17/TestBench_Circuito_C17.vhd|
+!i113 1
+Z25 o-work work
+R12
+Afuncionamento_test_bench
+R2
+R3
+DEx4 work 23 test_bench_circuito_c17 0 22 =oZo4Z=X5Z<H4WQQY8haW3
+!i122 2
+l31
+L7 79
+VJS=ZLcgS4Mm;eN@OTXNU22
+!s100 bnmQDdkU37YDK`c;c=oKa1
+R6
+32
+R22
+!i10b 1
+R23
+R24
+Z26 !s107 C:/Users/clayt/Desktop/Circuito C17/TestBench_Circuito_C17.vhd|
+!i113 1
+R25
+R12
