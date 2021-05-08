@@ -1,0 +1,13 @@
+|Circuito_Combinacional_Sequencial
+clock => Flip_Flop_D:FF0.clock
+A => Porta_And.IN0
+B => Porta_And.IN1
+Q <= Flip_Flop_D:FF0.Q
+
+
+|Circuito_Combinacional_Sequencial|Flip_Flop_D:FF0
+clock => Q$latch.LATCH_ENABLE
+D => Q$latch.DATAIN
+Q <= Q$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
