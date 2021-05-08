@@ -1,0 +1,26 @@
+|Flip_Flop_Serie
+clock => Flip_Flop_D:FF2.clock
+clock => Flip_Flop_D:FF1.clock
+clock => Flip_Flop_D:FF0.clock
+D => Flip_Flop_D:FF2.D
+Q << Flip_Flop_D:FF0.Q
+
+
+|Flip_Flop_Serie|Flip_Flop_D:FF2
+clock => Q$latch.LATCH_ENABLE
+D => Q$latch.DATAIN
+Q <= Q$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Flip_Flop_Serie|Flip_Flop_D:FF1
+clock => Q$latch.LATCH_ENABLE
+D => Q$latch.DATAIN
+Q <= Q$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Flip_Flop_Serie|Flip_Flop_D:FF0
+clock => Q$latch.LATCH_ENABLE
+D => Q$latch.DATAIN
+Q <= Q$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+

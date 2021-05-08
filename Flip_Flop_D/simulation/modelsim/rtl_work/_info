@@ -1,0 +1,134 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/clayt/Desktop/Flip_Flop_D/simulation/modelsim
+Eflip_flop_d
+Z1 w1620338738
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R0
+Z4 8C:/Users/clayt/Desktop/Flip_Flop_D/Flip_Flop_D.vhd
+Z5 FC:/Users/clayt/Desktop/Flip_Flop_D/Flip_Flop_D.vhd
+l0
+L7 1
+Vl9LfKFBkfH^]H70=SbT4Z0
+!s100 k;8IoDHZXK<a2_?<43@MB3
+Z6 OV;C;2020.1;71
+31
+Z7 !s110 1620424119
+!i10b 1
+Z8 !s108 1620424119.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/clayt/Desktop/Flip_Flop_D/Flip_Flop_D.vhd|
+Z10 !s107 C:/Users/clayt/Desktop/Flip_Flop_D/Flip_Flop_D.vhd|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Artl
+R2
+R3
+DEx4 work 11 flip_flop_d 0 22 l9LfKFBkfH^]H70=SbT4Z0
+!i122 0
+l17
+L15 15
+V4Z2Gi9Hg[dlV_m6?4J2Ad3
+!s100 AfYA:oJg:`I<IihVZJgI53
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eflip_flop_serie
+Z13 w1620422977
+R2
+R3
+!i122 1
+R0
+Z14 8C:/Users/clayt/Desktop/Flip_Flop_D/Flip_Flop_Serie.vhd
+Z15 FC:/Users/clayt/Desktop/Flip_Flop_D/Flip_Flop_Serie.vhd
+l0
+L7 1
+Va<]:f;aAT4QSB882NW5BO1
+!s100 KT:PUQ`RO:@`CV`[O>;LM3
+R6
+31
+R7
+!i10b 1
+R8
+Z16 !s90 -reportprogress|300|-93|-work|work|C:/Users/clayt/Desktop/Flip_Flop_D/Flip_Flop_Serie.vhd|
+Z17 !s107 C:/Users/clayt/Desktop/Flip_Flop_D/Flip_Flop_Serie.vhd|
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+DEx4 work 15 flip_flop_serie 0 22 a<]:f;aAT4QSB882NW5BO1
+!i122 1
+l21
+L15 20
+Vcif4Od]?:@^W:SbETd`N?1
+!s100 9_fm29h:TIo6l2ZSiKni;1
+R6
+31
+R7
+!i10b 1
+R8
+R16
+R17
+!i113 1
+R11
+R12
+Etb_circuito_ff_serie
+Z18 w1620423791
+R2
+R3
+!i122 2
+R0
+Z19 8C:/Users/clayt/Desktop/Flip_Flop_D/tb_circuito_FF_Serie.vhd
+Z20 FC:/Users/clayt/Desktop/Flip_Flop_D/tb_circuito_FF_Serie.vhd
+l0
+L6 1
+VVf9B>?2P8BVJ>]zPGnU9I3
+!s100 ^0GZ7k4_EWC4FlkD0VSQM3
+R6
+32
+Z21 !s110 1620424164
+!i10b 1
+Z22 !s108 1620424164.000000
+Z23 !s90 -reportprogress|300|-work|work|C:/Users/clayt/Desktop/Flip_Flop_D/tb_circuito_FF_Serie.vhd|
+!s107 C:/Users/clayt/Desktop/Flip_Flop_D/tb_circuito_FF_Serie.vhd|
+!i113 1
+Z24 o-work work
+R12
+Artl
+R2
+R3
+DEx4 work 20 tb_circuito_ff_serie 0 22 Vf9B>?2P8BVJ>]zPGnU9I3
+!i122 2
+l23
+L12 93
+VP;enlD8I81ODIZd2a9>182
+!s100 HhLD]lhC=lK?N=ZIzdGPl2
+R6
+32
+R21
+!i10b 1
+R22
+R23
+Z25 !s107 C:/Users/clayt/Desktop/Flip_Flop_D/tb_circuito_FF_Serie.vhd|
+!i113 1
+R24
+R12
