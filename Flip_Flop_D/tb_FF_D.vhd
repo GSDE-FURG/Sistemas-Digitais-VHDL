@@ -31,7 +31,7 @@ architecture rtl of tb_FF is
 				
 				clock_tb <= '1';
 				D_tb <= '0';
-				Q_tb <= '0';
+				-- Q_tb <= '0';
 				
 				wait for 10 ns;
 				

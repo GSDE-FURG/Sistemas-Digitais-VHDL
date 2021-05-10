@@ -1,0 +1,17 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/clayt/Desktop/Sistemas Digitais/Sistemas-Digitais-VHDL/Flip_Flop_D/Flip_Flop_D.vhd
+source_file = 1, C:/Users/clayt/Desktop/Sistemas Digitais/Sistemas-Digitais-VHDL/Flip_Flop_D/tb_FF_D.vhd
+source_file = 1, C:/Users/clayt/Desktop/Sistemas Digitais/Sistemas-Digitais-VHDL/Flip_Flop_D/Flip_Flop_Serie.vhd
+source_file = 1, C:/Users/clayt/Desktop/Sistemas Digitais/Sistemas-Digitais-VHDL/Flip_Flop_D/tb_circuito_FF_Serie.vhd
+source_file = 1, c:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, C:/Users/clayt/Desktop/Sistemas Digitais/Sistemas-Digitais-VHDL/Flip_Flop_D/db/Flip_Flop_D.cbx.xml
+design_name = Flip_Flop_Serie
+instance = comp, \Q~output\, Q~output, Flip_Flop_Serie, 1
+instance = comp, \clock~input\, clock~input, Flip_Flop_Serie, 1
+instance = comp, \D~input\, D~input, Flip_Flop_Serie, 1
+instance = comp, \FF2|Q\, FF2|Q, Flip_Flop_Serie, 1
+instance = comp, \FF1|Q\, FF1|Q, Flip_Flop_Serie, 1
+instance = comp, \FF0|Q\, FF0|Q, Flip_Flop_Serie, 1

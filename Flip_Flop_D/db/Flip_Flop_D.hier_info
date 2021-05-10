@@ -7,20 +7,20 @@ Q << Flip_Flop_D:FF0.Q
 
 
 |Flip_Flop_Serie|Flip_Flop_D:FF2
-clock => Q$latch.LATCH_ENABLE
-D => Q$latch.DATAIN
-Q <= Q$latch.DB_MAX_OUTPUT_PORT_TYPE
+clock => Q~reg0.CLK
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |Flip_Flop_Serie|Flip_Flop_D:FF1
-clock => Q$latch.LATCH_ENABLE
-D => Q$latch.DATAIN
-Q <= Q$latch.DB_MAX_OUTPUT_PORT_TYPE
+clock => Q~reg0.CLK
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |Flip_Flop_Serie|Flip_Flop_D:FF0
-clock => Q$latch.LATCH_ENABLE
-D => Q$latch.DATAIN
-Q <= Q$latch.DB_MAX_OUTPUT_PORT_TYPE
+clock => Q~reg0.CLK
+D => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 

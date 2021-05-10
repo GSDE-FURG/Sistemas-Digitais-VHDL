@@ -1,5 +1,5 @@
 Analysis & Synthesis report for Flip_Flop_D
-Fri May 07 18:43:22 2021
+Mon May 10 16:47:40 2021
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -13,11 +13,10 @@ Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
   5. Analysis & Synthesis Source Files Read
   6. Analysis & Synthesis Resource Usage Summary
   7. Analysis & Synthesis Resource Utilization by Entity
-  8. User-Specified and Inferred Latches
-  9. General Register Statistics
- 10. Post-Synthesis Netlist Statistics for Top Partition
- 11. Elapsed Time Per Partition
- 12. Analysis & Synthesis Messages
+  8. General Register Statistics
+  9. Post-Synthesis Netlist Statistics for Top Partition
+ 10. Elapsed Time Per Partition
+ 11. Analysis & Synthesis Messages
 
 
 
@@ -44,15 +43,15 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Fri May 07 18:43:22 2021       ;
+; Analysis & Synthesis Status        ; Successful - Mon May 10 16:47:40 2021       ;
 ; Quartus Prime Version              ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                      ; Flip_Flop_D                                 ;
 ; Top-level Entity Name              ; Flip_Flop_Serie                             ;
 ; Family                             ; Cyclone IV E                                ;
 ; Total logic elements               ; 3                                           ;
-;     Total combinational functions  ; 3                                           ;
-;     Dedicated logic registers      ; 0                                           ;
-; Total registers                    ; 0                                           ;
+;     Total combinational functions  ; 0                                           ;
+;     Dedicated logic registers      ; 3                                           ;
+; Total registers                    ; 3                                           ;
 ; Total pins                         ; 3                                           ;
 ; Total virtual pins                 ; 0                                           ;
 ; Total memory bits                  ; 0                                           ;
@@ -163,14 +162,14 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------+-------------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                  ;
-+----------------------------------+-----------------+-----------------+--------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                           ; Library ;
-+----------------------------------+-----------------+-----------------+--------------------------------------------------------+---------+
-; Flip_Flop_D.vhd                  ; yes             ; User VHDL File  ; C:/Users/clayt/Desktop/Flip_Flop_D/Flip_Flop_D.vhd     ;         ;
-; Flip_Flop_Serie.vhd              ; yes             ; User VHDL File  ; C:/Users/clayt/Desktop/Flip_Flop_D/Flip_Flop_Serie.vhd ;         ;
-+----------------------------------+-----------------+-----------------+--------------------------------------------------------+---------+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                           ;
++----------------------------------+-----------------+-----------------+-------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                                                                    ; Library ;
++----------------------------------+-----------------+-----------------+-------------------------------------------------------------------------------------------------+---------+
+; Flip_Flop_D.vhd                  ; yes             ; User VHDL File  ; C:/Users/clayt/Desktop/Sistemas Digitais/Sistemas-Digitais-VHDL/Flip_Flop_D/Flip_Flop_D.vhd     ;         ;
+; Flip_Flop_Serie.vhd              ; yes             ; User VHDL File  ; C:/Users/clayt/Desktop/Sistemas Digitais/Sistemas-Digitais-VHDL/Flip_Flop_D/Flip_Flop_Serie.vhd ;         ;
++----------------------------------+-----------------+-----------------+-------------------------------------------------------------------------------------------------+---------+
 
 
 +-----------------------------------------------------------+
@@ -180,18 +179,18 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------+-------------+
 ; Estimated Total logic elements              ; 3           ;
 ;                                             ;             ;
-; Total combinational functions               ; 3           ;
+; Total combinational functions               ; 0           ;
 ; Logic element usage by number of LUT inputs ;             ;
 ;     -- 4 input functions                    ; 0           ;
-;     -- 3 input functions                    ; 3           ;
+;     -- 3 input functions                    ; 0           ;
 ;     -- <=2 input functions                  ; 0           ;
 ;                                             ;             ;
 ; Logic elements by mode                      ;             ;
-;     -- normal mode                          ; 3           ;
+;     -- normal mode                          ; 0           ;
 ;     -- arithmetic mode                      ; 0           ;
 ;                                             ;             ;
-; Total registers                             ; 0           ;
-;     -- Dedicated logic registers            ; 0           ;
+; Total registers                             ; 3           ;
+;     -- Dedicated logic registers            ; 3           ;
 ;     -- I/O registers                        ; 0           ;
 ;                                             ;             ;
 ; I/O pins                                    ; 3           ;
@@ -200,8 +199,8 @@ https://fpgasoftware.intel.com/eula.
 ;                                             ;             ;
 ; Maximum fan-out node                        ; clock~input ;
 ; Maximum fan-out                             ; 3           ;
-; Total fan-out                               ; 13          ;
-; Average fan-out                             ; 1.44        ;
+; Total fan-out                               ; 10          ;
+; Average fan-out                             ; 1.11        ;
 +---------------------------------------------+-------------+
 
 
@@ -210,25 +209,12 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+----------------------------------+-----------------+--------------+
 ; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name              ; Entity Name     ; Library Name ;
 +----------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+----------------------------------+-----------------+--------------+
-; |Flip_Flop_Serie           ; 3 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 3    ; 0            ; |Flip_Flop_Serie                 ; Flip_Flop_Serie ; work         ;
-;    |Flip_Flop_D:FF0|       ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Flip_Flop_Serie|Flip_Flop_D:FF0 ; Flip_Flop_D     ; work         ;
-;    |Flip_Flop_D:FF1|       ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Flip_Flop_Serie|Flip_Flop_D:FF1 ; Flip_Flop_D     ; work         ;
-;    |Flip_Flop_D:FF2|       ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Flip_Flop_Serie|Flip_Flop_D:FF2 ; Flip_Flop_D     ; work         ;
+; |Flip_Flop_Serie           ; 0 (0)               ; 3 (0)                     ; 0           ; 0            ; 0       ; 0         ; 3    ; 0            ; |Flip_Flop_Serie                 ; Flip_Flop_Serie ; work         ;
+;    |Flip_Flop_D:FF0|       ; 0 (0)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Flip_Flop_Serie|Flip_Flop_D:FF0 ; Flip_Flop_D     ; work         ;
+;    |Flip_Flop_D:FF1|       ; 0 (0)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Flip_Flop_Serie|Flip_Flop_D:FF1 ; Flip_Flop_D     ; work         ;
+;    |Flip_Flop_D:FF2|       ; 0 (0)               ; 1 (1)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |Flip_Flop_Serie|Flip_Flop_D:FF2 ; Flip_Flop_D     ; work         ;
 +----------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+----------------------------------+-----------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
-
-
-+---------------------------------------------------------------------------------------------------+
-; User-Specified and Inferred Latches                                                               ;
-+----------------------------------------------------+---------------------+------------------------+
-; Latch Name                                         ; Latch Enable Signal ; Free of Timing Hazards ;
-+----------------------------------------------------+---------------------+------------------------+
-; Flip_Flop_D:FF0|Q                                  ; clock               ; yes                    ;
-; Flip_Flop_D:FF1|Q                                  ; clock               ; yes                    ;
-; Flip_Flop_D:FF2|Q                                  ; clock               ; yes                    ;
-; Number of user-specified and inferred latches = 3  ;                     ;                        ;
-+----------------------------------------------------+---------------------+------------------------+
-Note: All latches listed above may not be present at the end of synthesis due to various synthesis optimizations.
 
 
 +------------------------------------------------------+
@@ -236,7 +222,7 @@ Note: All latches listed above may not be present at the end of synthesis due to
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 0     ;
+; Total registers                              ; 3     ;
 ; Number of registers using Synchronous Clear  ; 0     ;
 ; Number of registers using Synchronous Load   ; 0     ;
 ; Number of registers using Asynchronous Clear ; 0     ;
@@ -248,17 +234,16 @@ Note: All latches listed above may not be present at the end of synthesis due to
 
 +-----------------------------------------------------+
 ; Post-Synthesis Netlist Statistics for Top Partition ;
-+-----------------------+-----------------------------+
-; Type                  ; Count                       ;
-+-----------------------+-----------------------------+
-; boundary_port         ; 3                           ;
-; cycloneiii_lcell_comb ; 3                           ;
-;     normal            ; 3                           ;
-;         3 data inputs ; 3                           ;
-;                       ;                             ;
-; Max LUT depth         ; 1.00                        ;
-; Average LUT depth     ; 1.00                        ;
-+-----------------------+-----------------------------+
++-------------------+---------------------------------+
+; Type              ; Count                           ;
++-------------------+---------------------------------+
+; boundary_port     ; 3                               ;
+; cycloneiii_ff     ; 3                               ;
+;     plain         ; 3                               ;
+;                   ;                                 ;
+; Max LUT depth     ; 0.00                            ;
+; Average LUT depth ; 0.00                            ;
++-------------------+---------------------------------+
 
 
 +-------------------------------+
@@ -276,26 +261,24 @@ Note: All latches listed above may not be present at the end of synthesis due to
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
-    Info: Processing started: Fri May 07 18:43:12 2021
+    Info: Processing started: Mon May 10 16:47:30 2021
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Flip_Flop_D -c Flip_Flop_D
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info (12021): Found 2 design units, including 1 entities, in source file flip_flop_d.vhd
-    Info (12022): Found design unit 1: Flip_Flop_D-rtl File: C:/Users/clayt/Desktop/Flip_Flop_D/Flip_Flop_D.vhd Line: 15
-    Info (12023): Found entity 1: Flip_Flop_D File: C:/Users/clayt/Desktop/Flip_Flop_D/Flip_Flop_D.vhd Line: 7
+    Info (12022): Found design unit 1: Flip_Flop_D-rtl File: C:/Users/clayt/Desktop/Sistemas Digitais/Sistemas-Digitais-VHDL/Flip_Flop_D/Flip_Flop_D.vhd Line: 15
+    Info (12023): Found entity 1: Flip_Flop_D File: C:/Users/clayt/Desktop/Sistemas Digitais/Sistemas-Digitais-VHDL/Flip_Flop_D/Flip_Flop_D.vhd Line: 7
 Info (12021): Found 2 design units, including 1 entities, in source file tb_ff_d.vhd
-    Info (12022): Found design unit 1: tb_FF-rtl File: C:/Users/clayt/Desktop/Flip_Flop_D/tb_FF_D.vhd Line: 12
-    Info (12023): Found entity 1: tb_FF File: C:/Users/clayt/Desktop/Flip_Flop_D/tb_FF_D.vhd Line: 6
+    Info (12022): Found design unit 1: tb_FF-rtl File: C:/Users/clayt/Desktop/Sistemas Digitais/Sistemas-Digitais-VHDL/Flip_Flop_D/tb_FF_D.vhd Line: 12
+    Info (12023): Found entity 1: tb_FF File: C:/Users/clayt/Desktop/Sistemas Digitais/Sistemas-Digitais-VHDL/Flip_Flop_D/tb_FF_D.vhd Line: 6
 Info (12021): Found 2 design units, including 1 entities, in source file flip_flop_serie.vhd
-    Info (12022): Found design unit 1: Flip_Flop_Serie-rtl File: C:/Users/clayt/Desktop/Flip_Flop_D/Flip_Flop_Serie.vhd Line: 15
-    Info (12023): Found entity 1: Flip_Flop_Serie File: C:/Users/clayt/Desktop/Flip_Flop_D/Flip_Flop_Serie.vhd Line: 7
+    Info (12022): Found design unit 1: Flip_Flop_Serie-rtl File: C:/Users/clayt/Desktop/Sistemas Digitais/Sistemas-Digitais-VHDL/Flip_Flop_D/Flip_Flop_Serie.vhd Line: 15
+    Info (12023): Found entity 1: Flip_Flop_Serie File: C:/Users/clayt/Desktop/Sistemas Digitais/Sistemas-Digitais-VHDL/Flip_Flop_D/Flip_Flop_Serie.vhd Line: 7
 Info (12021): Found 2 design units, including 1 entities, in source file tb_circuito_ff_serie.vhd
-    Info (12022): Found design unit 1: tb_circuito_FF_Serie-rtl File: C:/Users/clayt/Desktop/Flip_Flop_D/tb_circuito_FF_Serie.vhd Line: 12
-    Info (12023): Found entity 1: tb_circuito_FF_Serie File: C:/Users/clayt/Desktop/Flip_Flop_D/tb_circuito_FF_Serie.vhd Line: 6
+    Info (12022): Found design unit 1: tb_circuito_FF_Serie-rtl File: C:/Users/clayt/Desktop/Sistemas Digitais/Sistemas-Digitais-VHDL/Flip_Flop_D/tb_circuito_FF_Serie.vhd Line: 12
+    Info (12023): Found entity 1: tb_circuito_FF_Serie File: C:/Users/clayt/Desktop/Sistemas Digitais/Sistemas-Digitais-VHDL/Flip_Flop_D/tb_circuito_FF_Serie.vhd Line: 6
 Info (12127): Elaborating entity "Flip_Flop_Serie" for the top level hierarchy
-Info (12128): Elaborating entity "Flip_Flop_D" for hierarchy "Flip_Flop_D:FF2" File: C:/Users/clayt/Desktop/Flip_Flop_D/Flip_Flop_Serie.vhd Line: 25
-Warning (10631): VHDL Process Statement warning at Flip_Flop_D.vhd(19): inferring latch(es) for signal or variable "Q", which holds its previous value in one or more paths through the process File: C:/Users/clayt/Desktop/Flip_Flop_D/Flip_Flop_D.vhd Line: 19
-Info (10041): Inferred latch for "Q" at Flip_Flop_D.vhd(19) File: C:/Users/clayt/Desktop/Flip_Flop_D/Flip_Flop_D.vhd Line: 19
+Info (12128): Elaborating entity "Flip_Flop_D" for hierarchy "Flip_Flop_D:FF2" File: C:/Users/clayt/Desktop/Sistemas Digitais/Sistemas-Digitais-VHDL/Flip_Flop_D/Flip_Flop_Serie.vhd Line: 25
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
@@ -303,10 +286,10 @@ Info (21057): Implemented 6 device resources after synthesis - the final resourc
     Info (21058): Implemented 2 input pins
     Info (21059): Implemented 1 output pins
     Info (21061): Implemented 3 logic cells
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 2 warnings
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning
     Info: Peak virtual memory: 4780 megabytes
-    Info: Processing ended: Fri May 07 18:43:22 2021
+    Info: Processing ended: Mon May 10 16:47:40 2021
     Info: Elapsed time: 00:00:10
-    Info: Total CPU time (on all processors): 00:00:22
+    Info: Total CPU time (on all processors): 00:00:23
 
 

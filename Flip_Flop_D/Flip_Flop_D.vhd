@@ -20,7 +20,7 @@ begin
 		
 		begin
 		
-			if clock = '1' then 
+			if clock = '1' and clock 'event then 
 				Q <= D;
 			end if;
 		end process;
