@@ -1,5 +1,5 @@
 Analysis & Synthesis report for Porta_And
-Mon Apr 26 21:22:56 2021
+Tue May 11 10:32:23 2021
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -43,7 +43,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Mon Apr 26 21:22:56 2021       ;
+; Analysis & Synthesis Status        ; Successful - Tue May 11 10:32:23 2021       ;
 ; Quartus Prime Version              ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                      ; Porta_And                                   ;
 ; Top-level Entity Name              ; Porta_And                                   ;
@@ -161,13 +161,13 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------+-------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                          ;
-+----------------------------------+-----------------+-----------------+----------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                                   ; Library ;
-+----------------------------------+-----------------+-----------------+----------------------------------------------------------------+---------+
-; Porta_And.vhd                    ; yes             ; User VHDL File  ; C:/Users/clayt/Desktop/Aula de Sistemas Digitais/Porta_And.vhd ;         ;
-+----------------------------------+-----------------+-----------------+----------------------------------------------------------------+---------+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                   ;
++----------------------------------+-----------------+-----------------+-----------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                                                            ; Library ;
++----------------------------------+-----------------+-----------------+-----------------------------------------------------------------------------------------+---------+
+; Porta_And.vhd                    ; yes             ; User VHDL File  ; C:/Users/clayt/Desktop/Sistemas Digitais/Sistemas-Digitais-VHDL/Porta And/Porta_And.vhd ;         ;
++----------------------------------+-----------------+-----------------+-----------------------------------------------------------------------------------------+---------+
 
 
 +---------------------------------------------------------------------+
@@ -257,16 +257,16 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
-    Info: Processing started: Mon Apr 26 21:22:44 2021
+    Info: Processing started: Tue May 11 10:32:11 2021
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Porta_And -c Porta_And
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info (12021): Found 2 design units, including 1 entities, in source file porta_and.vhd
-    Info (12022): Found design unit 1: Porta_And-comportamento_Porta_And File: C:/Users/clayt/Desktop/Aula de Sistemas Digitais/Porta_And.vhd Line: 21
-    Info (12023): Found entity 1: Porta_And File: C:/Users/clayt/Desktop/Aula de Sistemas Digitais/Porta_And.vhd Line: 9
+    Info (12022): Found design unit 1: Porta_And-comportamento_Porta_And File: C:/Users/clayt/Desktop/Sistemas Digitais/Sistemas-Digitais-VHDL/Porta And/Porta_And.vhd Line: 21
+    Info (12023): Found entity 1: Porta_And File: C:/Users/clayt/Desktop/Sistemas Digitais/Sistemas-Digitais-VHDL/Porta And/Porta_And.vhd Line: 9
 Info (12021): Found 2 design units, including 1 entities, in source file test_bench_porta_and.vhd
-    Info (12022): Found design unit 1: test_bench_Porta_And-funcionamento_test_bench File: C:/Users/clayt/Desktop/Aula de Sistemas Digitais/test_bench_Porta_And.vhd Line: 7
-    Info (12023): Found entity 1: test_bench_Porta_And File: C:/Users/clayt/Desktop/Aula de Sistemas Digitais/test_bench_Porta_And.vhd Line: 4
+    Info (12022): Found design unit 1: test_bench_Porta_And-funcionamento_test_bench File: C:/Users/clayt/Desktop/Sistemas Digitais/Sistemas-Digitais-VHDL/Porta And/test_bench_Porta_And.vhd Line: 7
+    Info (12023): Found entity 1: test_bench_Porta_And File: C:/Users/clayt/Desktop/Sistemas Digitais/Sistemas-Digitais-VHDL/Porta And/test_bench_Porta_And.vhd Line: 4
 Info (12127): Elaborating entity "Porta_And" for the top level hierarchy
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
@@ -276,9 +276,9 @@ Info (21057): Implemented 4 device resources after synthesis - the final resourc
     Info (21059): Implemented 1 output pins
     Info (21061): Implemented 1 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4779 megabytes
-    Info: Processing ended: Mon Apr 26 21:22:56 2021
+    Info: Peak virtual memory: 4772 megabytes
+    Info: Processing ended: Tue May 11 10:32:23 2021
     Info: Elapsed time: 00:00:12
-    Info: Total CPU time (on all processors): 00:00:29
+    Info: Total CPU time (on all processors): 00:00:23
 
 

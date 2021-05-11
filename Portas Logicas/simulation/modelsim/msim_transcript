@@ -1,0 +1,81 @@
+# Reading pref.tcl
+# do Portas_Logicas_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/Users/clayt/OneDrive/Documents/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/clayt/Desktop/Sistemas Digitais/Sistemas-Digitais-VHDL/Portas Logicas/Portas_Logicas.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:31:30 on May 11,2021
+# vcom -reportprogress 300 -93 -work work C:/Users/clayt/Desktop/Sistemas Digitais/Sistemas-Digitais-VHDL/Portas Logicas/Portas_Logicas.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Portas_Logicas
+# -- Compiling architecture comportamento_Portas_Logicas of Portas_Logicas
+# End time: 12:31:30 on May 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/clayt/Desktop/Sistemas Digitais/Sistemas-Digitais-VHDL/Portas Logicas/Porta_Nand.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:31:30 on May 11,2021
+# vcom -reportprogress 300 -93 -work work C:/Users/clayt/Desktop/Sistemas Digitais/Sistemas-Digitais-VHDL/Portas Logicas/Porta_Nand.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Porta_Nand
+# -- Compiling architecture comportamento_Porta_Nand of Porta_Nand
+# End time: 12:31:31 on May 11,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/clayt/Desktop/Sistemas Digitais/Sistemas-Digitais-VHDL/Portas Logicas/Porta_And.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:31:31 on May 11,2021
+# vcom -reportprogress 300 -93 -work work C:/Users/clayt/Desktop/Sistemas Digitais/Sistemas-Digitais-VHDL/Portas Logicas/Porta_And.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Porta_And
+# -- Compiling architecture comportamento_Porta_And of Porta_And
+# End time: 12:31:31 on May 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/clayt/Desktop/Sistemas Digitais/Sistemas-Digitais-VHDL/Portas Logicas/Porta_OR.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:31:31 on May 11,2021
+# vcom -reportprogress 300 -93 -work work C:/Users/clayt/Desktop/Sistemas Digitais/Sistemas-Digitais-VHDL/Portas Logicas/Porta_OR.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Porta_OR
+# -- Compiling architecture comportamento_Porta_OR of Porta_OR
+# End time: 12:31:31 on May 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vcom -reportprogress 300 -work work {C:/Users/clayt/Desktop/Sistemas Digitais/Sistemas-Digitais-VHDL/Portas Logicas/tb_Porta_And.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:31:44 on May 11,2021
+# vcom -reportprogress 300 -work work C:/Users/clayt/Desktop/Sistemas Digitais/Sistemas-Digitais-VHDL/Portas Logicas/tb_Porta_And.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity test_bench_Porta_And
+# -- Compiling architecture funcionamento_test_bench of test_bench_Porta_And
+# End time: 12:31:44 on May 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -gui -l msim_transcript work.test_bench_porta_and
+# vsim -gui -l msim_transcript work.test_bench_porta_and 
+# Start time: 12:31:55 on May 11,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.test_bench_porta_and(funcionamento_test_bench)
+# Loading work.porta_and(comportamento_porta_and)
+add wave -position insertpoint  \
+sim:/test_bench_porta_and/a_tb \
+sim:/test_bench_porta_and/b_tb \
+sim:/test_bench_porta_and/y_tb
+run

@@ -1,0 +1,43 @@
+-- CODIGO PORTA LOGICA AND
+
+-- library
+library ieee;
+use ieee.std_logic_1164.all;
+ 
+ 
+-- entity
+entity Portas_Logicas is
+  port 
+	(
+    a    : in  std_logic;
+    b    : in  std_logic;
+    y : out std_logic
+    
+	 );
+end Portas_Logicas;
+ 
+ 
+-- architecture
+architecture comportamento_Portas_Logicas of Portas_Logicas is 
+  
+	signal sinal_intermediario : std_logic; -- Sinal intermediario
+
+begin
+
+  sinal_intermediario <= a and b; 
+  
+  y <= sinal_intermediario;
+  
+end comportamento_Portas_Logicas;
+
+
+
+-------
+--Logical Operators
+-- and    Logical And
+-- or     Logical Or
+-- nand   Logical Nand
+-- nor    Logical Nor
+-- xor    Logical Xor
+-- xnor   Logical Xnor
+-------

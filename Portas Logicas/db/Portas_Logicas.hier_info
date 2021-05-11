@@ -1,0 +1,30 @@
+|Portas_Logicas
+a => Porta_Nand:U0.a
+a => Porta_And:U1.a
+a => Porta_OR:U2.a
+b => Porta_Nand:U0.b
+b => Porta_And:U1.b
+b => Porta_OR:U2.b
+saida_And << Porta_And:U1.y
+saida_Nand << Porta_Nand:U0.y
+Saida_OR << Porta_OR:U2.y
+
+
+|Portas_Logicas|Porta_Nand:U0
+a => y.IN0
+b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Portas_Logicas|Porta_And:U1
+a => y.IN0
+b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Portas_Logicas|Porta_OR:U2
+a => y.IN0
+b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+

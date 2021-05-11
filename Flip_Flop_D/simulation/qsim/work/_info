@@ -10,7 +10,7 @@ z2
 cModel Technology
 Z0 dC:/Users/clayt/Desktop/Sistemas Digitais/Sistemas-Digitais-VHDL/Flip_Flop_D/simulation/qsim
 Eflip_flop_serie
-Z1 w1620676902
+Z1 w1620687057
 Z2 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 WOh:M[al;oVzG5c`<He>D0
 Z3 DPx10 cycloneive 21 cycloneive_components 0 22 zGMDhP>8e@2k@f0e<PY]k2
 Z4 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
@@ -19,7 +19,7 @@ Z6 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
 Z7 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z8 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
 Z9 DPx6 altera 28 altera_primitives_components 0 22 ca:ehlQAg4;_gVV:^8MAg3
-!i122 20
+!i122 64
 R0
 Z10 8Flip_Flop_D.vho
 Z11 FFlip_Flop_D.vho
@@ -29,9 +29,9 @@ VCTAX`g@dA`LYEh4YZ@9gB1
 !s100 T5bbGH[TOV=_2]XH>kPcM1
 Z12 OV;C;2020.1;71
 32
-Z13 !s110 1620676904
+Z13 !s110 1620687059
 !i10b 1
-Z14 !s108 1620676904.000000
+Z14 !s108 1620687058.000000
 Z15 !s90 -work|work|Flip_Flop_D.vho|
 Z16 !s107 Flip_Flop_D.vho|
 !i113 1
@@ -47,7 +47,7 @@ R7
 R8
 R9
 DEx4 work 15 flip_flop_serie 0 22 CTAX`g@dA`LYEh4YZ@9gB1
-!i122 20
+!i122 64
 l65
 L45 101
 V`2dYAl0mjFMd93alAUo<11
@@ -63,10 +63,10 @@ R16
 R17
 R18
 Eflip_flop_serie_vhd_vec_tst
-Z19 w1620676901
+Z19 w1620687056
 R7
 R8
-!i122 21
+!i122 65
 R0
 Z20 8Waveform.vwf.vht
 Z21 FWaveform.vwf.vht
@@ -78,28 +78,28 @@ R12
 32
 R13
 !i10b 1
-R14
-Z22 !s90 -work|work|Waveform.vwf.vht|
-Z23 !s107 Waveform.vwf.vht|
+Z22 !s108 1620687059.000000
+Z23 !s90 -work|work|Waveform.vwf.vht|
+Z24 !s107 Waveform.vwf.vht|
 !i113 1
 R17
 R18
 Aflip_flop_serie_arch
 R7
 R8
-Z24 DEx4 work 27 flip_flop_serie_vhd_vec_tst 0 22 ]^n=<of5?ULW=WP1L8RBi2
-!i122 21
+Z25 DEx4 work 27 flip_flop_serie_vhd_vec_tst 0 22 ]^n=<of5?ULW=WP1L8RBi2
+!i122 65
 l47
-Z25 L34 50
-VJ;@lP;H?iJDCEVa9ST]DU2
-!s100 _IzAJMCYn=bzY`bRUkobK0
+L34 48
+VH`[[eVP[[cVJ?2OS>bOe_3
+!s100 zeegQ`gPnGf5NL]DRM8le3
 R12
 32
 R13
 !i10b 1
-R14
 R22
 R23
+R24
 !i113 1
 R17
 R18
