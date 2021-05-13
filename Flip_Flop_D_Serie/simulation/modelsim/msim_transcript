@@ -12,19 +12,19 @@
 # 
 # vcom -93 -work work {C:/Users/clayt/Desktop/Sistemas Digitais/Sistemas-Digitais-VHDL/Flip_Flop_D_Serie/Flip_Flop_D_Serie.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 11:19:44 on May 12,2021
+# Start time: 14:07:54 on May 13,2021
 # vcom -reportprogress 300 -93 -work work C:/Users/clayt/Desktop/Sistemas Digitais/Sistemas-Digitais-VHDL/Flip_Flop_D_Serie/Flip_Flop_D_Serie.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Compiling entity Flip_Flop_D_Serie
 # -- Compiling architecture RTL of Flip_Flop_D_Serie
-# End time: 11:19:44 on May 12,2021, Elapsed time: 0:00:00
+# End time: 14:07:54 on May 13,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 vcom -reportprogress 300 -work work {C:/Users/clayt/Desktop/Sistemas Digitais/Sistemas-Digitais-VHDL/Flip_Flop_D_Serie/tb_Flip_Flop_D_Serie.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 11:19:54 on May 12,2021
+# Start time: 14:08:05 on May 13,2021
 # vcom -reportprogress 300 -work work C:/Users/clayt/Desktop/Sistemas Digitais/Sistemas-Digitais-VHDL/Flip_Flop_D_Serie/tb_Flip_Flop_D_Serie.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -32,11 +32,47 @@ vcom -reportprogress 300 -work work {C:/Users/clayt/Desktop/Sistemas Digitais/Si
 # -- Compiling entity tb_Flip_Flop_D_Serie
 # -- Compiling architecture tb of tb_Flip_Flop_D_Serie
 # -- Loading entity Flip_Flop_D_Serie
-# End time: 11:19:54 on May 12,2021, Elapsed time: 0:00:00
+# End time: 14:08:05 on May 13,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 vsim -gui -l msim_transcript work.tb_flip_flop_d_serie
 # vsim -gui -l msim_transcript work.tb_flip_flop_d_serie 
-# Start time: 11:20:03 on May 12,2021
+# Start time: 14:08:15 on May 13,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_flip_flop_d_serie(tb)
+# Loading work.flip_flop_d_serie(rtl)
+# Trace back: Error QStructure::sort: invalid command name ""
+#   <6:C:/mtitcl/vsim/qstructure.tc_:2478: ::QStructure::sort .main_pane.structure 0 ascending
+#   <5:eval:1: ::QStructure::structsort .main_pane.structure 0 ascending
+#   <4:eval:1: ::namespace inscope ::QStructure {structsort .main_pane.structure} 0 ascending
+#   >3:proc:26: ::.main_pane.structure.interior.cs.body.struct sort 0 ascending
+#   >2:proc:10: ::.main_pane.structure.interior.cs.body.struct _initializeSortColumn
+#   <1:eval:1: ::namespace inscope ::vsimwidgets::Hierarchy {::.main_pane.structure.interior.cs.body.struct _initializeSortColumn}
+add wave -position insertpoint  \
+sim:/tb_flip_flop_d_serie/clock_tb \
+sim:/tb_flip_flop_d_serie/reset_tb \
+sim:/tb_flip_flop_d_serie/D_tb \
+sim:/tb_flip_flop_d_serie/Q_tb \
+sim:/tb_flip_flop_d_serie/Clk
+run
+vcom -reportprogress 300 -work work {C:/Users/clayt/Desktop/Sistemas Digitais/Sistemas-Digitais-VHDL/Flip_Flop_D_Serie/tb_Flip_Flop_D_Serie.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:26:48 on May 13,2021
+# vcom -reportprogress 300 -work work C:/Users/clayt/Desktop/Sistemas Digitais/Sistemas-Digitais-VHDL/Flip_Flop_D_Serie/tb_Flip_Flop_D_Serie.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb_Flip_Flop_D_Serie
+# -- Compiling architecture tb of tb_Flip_Flop_D_Serie
+# -- Loading entity Flip_Flop_D_Serie
+# End time: 14:26:48 on May 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -gui -l msim_transcript work.tb_flip_flop_d_serie
+# End time: 14:27:00 on May 13,2021, Elapsed time: 0:18:45
+# Errors: 0, Warnings: 0
+# vsim -gui -l msim_transcript work.tb_flip_flop_d_serie 
+# Start time: 14:27:00 on May 13,2021
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -49,5 +85,94 @@ sim:/tb_flip_flop_d_serie/D_tb \
 sim:/tb_flip_flop_d_serie/Q_tb \
 sim:/tb_flip_flop_d_serie/Clk
 run
-# End time: 11:21:07 on May 12,2021, Elapsed time: 0:01:04
+vcom -reportprogress 300 -work work {C:/Users/clayt/Desktop/Sistemas Digitais/Sistemas-Digitais-VHDL/Flip_Flop_D_Serie/tb_Flip_Flop_D_Serie.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:28:07 on May 13,2021
+# vcom -reportprogress 300 -work work C:/Users/clayt/Desktop/Sistemas Digitais/Sistemas-Digitais-VHDL/Flip_Flop_D_Serie/tb_Flip_Flop_D_Serie.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb_Flip_Flop_D_Serie
+# -- Compiling architecture tb of tb_Flip_Flop_D_Serie
+# -- Loading entity Flip_Flop_D_Serie
+# End time: 14:28:07 on May 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -gui -l msim_transcript work.tb_flip_flop_d_serie
+# End time: 14:28:20 on May 13,2021, Elapsed time: 0:01:20
+# Errors: 0, Warnings: 0
+# vsim -gui -l msim_transcript work.tb_flip_flop_d_serie 
+# Start time: 14:28:20 on May 13,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_flip_flop_d_serie(tb)
+# Loading work.flip_flop_d_serie(rtl)
+add wave -position insertpoint  \
+sim:/tb_flip_flop_d_serie/clock_tb \
+sim:/tb_flip_flop_d_serie/reset_tb \
+sim:/tb_flip_flop_d_serie/D_tb \
+sim:/tb_flip_flop_d_serie/Q_tb \
+sim:/tb_flip_flop_d_serie/Clk
+run
+run
+vcom -reportprogress 300 -work work {C:/Users/clayt/Desktop/Sistemas Digitais/Sistemas-Digitais-VHDL/Flip_Flop_D_Serie/tb_Flip_Flop_D_Serie.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:32:37 on May 13,2021
+# vcom -reportprogress 300 -work work C:/Users/clayt/Desktop/Sistemas Digitais/Sistemas-Digitais-VHDL/Flip_Flop_D_Serie/tb_Flip_Flop_D_Serie.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb_Flip_Flop_D_Serie
+# -- Compiling architecture tb of tb_Flip_Flop_D_Serie
+# -- Loading entity Flip_Flop_D_Serie
+# End time: 14:32:37 on May 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -gui -l msim_transcript work.tb_flip_flop_d_serie
+# End time: 14:32:47 on May 13,2021, Elapsed time: 0:04:27
+# Errors: 0, Warnings: 0
+# vsim -gui -l msim_transcript work.tb_flip_flop_d_serie 
+# Start time: 14:32:48 on May 13,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_flip_flop_d_serie(tb)
+# Loading work.flip_flop_d_serie(rtl)
+add wave -position insertpoint  \
+sim:/tb_flip_flop_d_serie/clock_tb \
+sim:/tb_flip_flop_d_serie/reset_tb \
+sim:/tb_flip_flop_d_serie/D_tb \
+sim:/tb_flip_flop_d_serie/Q_tb \
+sim:/tb_flip_flop_d_serie/Clk
+run
+run
+vcom -reportprogress 300 -work work {C:/Users/clayt/Desktop/Sistemas Digitais/Sistemas-Digitais-VHDL/Flip_Flop_D_Serie/tb_Flip_Flop_D_Serie.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:39:24 on May 13,2021
+# vcom -reportprogress 300 -work work C:/Users/clayt/Desktop/Sistemas Digitais/Sistemas-Digitais-VHDL/Flip_Flop_D_Serie/tb_Flip_Flop_D_Serie.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb_Flip_Flop_D_Serie
+# -- Compiling architecture tb of tb_Flip_Flop_D_Serie
+# -- Loading entity Flip_Flop_D_Serie
+# End time: 14:39:24 on May 13,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -gui -l msim_transcript work.tb_flip_flop_d_serie
+# End time: 14:39:44 on May 13,2021, Elapsed time: 0:06:56
+# Errors: 0, Warnings: 0
+# vsim -gui -l msim_transcript work.tb_flip_flop_d_serie 
+# Start time: 14:39:45 on May 13,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_flip_flop_d_serie(tb)
+# Loading work.flip_flop_d_serie(rtl)
+add wave -position insertpoint  \
+sim:/tb_flip_flop_d_serie/clock_tb \
+sim:/tb_flip_flop_d_serie/reset_tb \
+sim:/tb_flip_flop_d_serie/D_tb \
+sim:/tb_flip_flop_d_serie/Q_tb \
+sim:/tb_flip_flop_d_serie/Clk
+run
+# End time: 14:42:23 on May 13,2021, Elapsed time: 0:02:38
 # Errors: 0, Warnings: 0
