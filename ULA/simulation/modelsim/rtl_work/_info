@@ -1,0 +1,97 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/clayt/Desktop/Sistemas Digitais/Sistemas-Digitais-VHDL/ULA/simulation/modelsim
+Etb_ula_4bits
+Z1 w1620883299
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 2
+R0
+Z5 8C:/Users/clayt/Desktop/Sistemas Digitais/Sistemas-Digitais-VHDL/ULA/tb_ULA_4bits.vhd
+Z6 FC:/Users/clayt/Desktop/Sistemas Digitais/Sistemas-Digitais-VHDL/ULA/tb_ULA_4bits.vhd
+l0
+L5 1
+ViTFJH3TFU>XzgW1FRF5=X0
+!s100 OGN`lFG=cA=bea1@OniiZ3
+Z7 OV;C;2020.1;71
+32
+Z8 !s110 1620883461
+!i10b 1
+Z9 !s108 1620883461.000000
+Z10 !s90 -reportprogress|300|-work|work|C:/Users/clayt/Desktop/Sistemas Digitais/Sistemas-Digitais-VHDL/ULA/tb_ULA_4bits.vhd|
+Z11 !s107 C:/Users/clayt/Desktop/Sistemas Digitais/Sistemas-Digitais-VHDL/ULA/tb_ULA_4bits.vhd|
+!i113 1
+Z12 o-work work
+Z13 tExplicit 1 CvgOpt 0
+Abehavior
+R2
+R3
+R4
+Z14 DEx4 work 12 tb_ula_4bits 0 22 iTFJH3TFU>XzgW1FRF5=X0
+!i122 2
+l30
+Z15 L8 55
+Z16 VHPfYj3GOzOoEHc=8G5G780
+Z17 !s100 zLiS`S>FADFUD0KlVo]id0
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Eula_4bits
+Z18 w1620883312
+R2
+R3
+R4
+!i122 0
+R0
+Z19 8C:/Users/clayt/Desktop/Sistemas Digitais/Sistemas-Digitais-VHDL/ULA/ULA_4bits.vhd
+Z20 FC:/Users/clayt/Desktop/Sistemas Digitais/Sistemas-Digitais-VHDL/ULA/ULA_4bits.vhd
+l0
+L5 1
+VliJF@_hP7H0oL=i46R22l3
+!s100 kZW37n?OaZUJjd7f1YeZE3
+R7
+31
+Z21 !s110 1620883348
+!i10b 1
+Z22 !s108 1620883348.000000
+Z23 !s90 -reportprogress|300|-93|-work|work|C:/Users/clayt/Desktop/Sistemas Digitais/Sistemas-Digitais-VHDL/ULA/ULA_4bits.vhd|
+Z24 !s107 C:/Users/clayt/Desktop/Sistemas Digitais/Sistemas-Digitais-VHDL/ULA/ULA_4bits.vhd|
+!i113 1
+Z25 o-93 -work work
+R13
+Abehavioral
+R2
+R3
+R4
+DEx4 work 9 ula_4bits 0 22 liJF@_hP7H0oL=i46R22l3
+!i122 0
+l14
+L13 25
+V@BZLTb0mH0H<kI1JIW_DY3
+!s100 cDj1LW]6<>a1dTGb4c1NA0
+R7
+31
+R21
+!i10b 1
+R22
+R23
+R24
+!i113 1
+R25
+R13

@@ -12,7 +12,7 @@
 # 
 # vcom -93 -work work {C:/Users/clayt/Desktop/Sistemas Digitais/Sistemas-Digitais-VHDL/Full Adder/Full_Adder.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 22:10:06 on May 12,2021
+# Start time: 00:45:23 on May 13,2021
 # vcom -reportprogress 300 -93 -work work C:/Users/clayt/Desktop/Sistemas Digitais/Sistemas-Digitais-VHDL/Full Adder/Full_Adder.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -20,12 +20,12 @@
 # -- Loading package NUMERIC_STD
 # -- Compiling entity full_adder
 # -- Compiling architecture rtl of full_adder
-# End time: 22:10:06 on May 12,2021, Elapsed time: 0:00:00
+# End time: 00:45:23 on May 13,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 vcom -reportprogress 300 -work work {C:/Users/clayt/Desktop/Sistemas Digitais/Sistemas-Digitais-VHDL/Full Adder/tb_Full_Adder.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 22:10:22 on May 12,2021
+# Start time: 00:45:40 on May 13,2021
 # vcom -reportprogress 300 -work work C:/Users/clayt/Desktop/Sistemas Digitais/Sistemas-Digitais-VHDL/Full Adder/tb_Full_Adder.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -34,11 +34,11 @@ vcom -reportprogress 300 -work work {C:/Users/clayt/Desktop/Sistemas Digitais/Si
 # -- Compiling architecture tb of tb_Full_Adder
 # -- Loading package NUMERIC_STD
 # -- Loading entity full_adder
-# End time: 22:10:22 on May 12,2021, Elapsed time: 0:00:00
+# End time: 00:45:40 on May 13,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vsim -gui -l msim_transcript work.tb_full_adder
-# vsim -gui -l msim_transcript work.tb_full_adder 
-# Start time: 22:10:32 on May 12,2021
+vsim -gui -l msim_transcript work.tb_full_adder(tb)
+# vsim -gui -l msim_transcript work.tb_full_adder(tb) 
+# Start time: 00:45:51 on May 13,2021
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -52,5 +52,5 @@ sim:/tb_full_adder/Cin_tb \
 sim:/tb_full_adder/S_tb \
 sim:/tb_full_adder/Cout_tb
 run
-# End time: 22:14:01 on May 12,2021, Elapsed time: 0:03:29
+# End time: 01:09:49 on May 13,2021, Elapsed time: 0:23:58
 # Errors: 0, Warnings: 0

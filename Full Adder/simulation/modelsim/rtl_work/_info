@@ -10,7 +10,7 @@ z2
 cModel Technology
 Z0 dC:/Users/clayt/Desktop/Sistemas Digitais/Sistemas-Digitais-VHDL/Full Adder/simulation/modelsim
 Efull_adder
-Z1 w1620867799
+Z1 w1620876368
 Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
 Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
@@ -19,14 +19,14 @@ R0
 Z5 8C:/Users/clayt/Desktop/Sistemas Digitais/Sistemas-Digitais-VHDL/Full Adder/Full_Adder.vhd
 Z6 FC:/Users/clayt/Desktop/Sistemas Digitais/Sistemas-Digitais-VHDL/Full Adder/Full_Adder.vhd
 l0
-L5 1
-V[N_:nie5gD<fVg4?[NWOS0
-!s100 757AIEdII4=JM<Ci_`cSf2
+L6 1
+V6NX1z<^Y7m3QEkT7^Cnh;2
+!s100 9ke9l07mQ@@c4ikejdgJ_2
 Z7 OV;C;2020.1;71
 31
-Z8 !s110 1620868206
+Z8 !s110 1620877523
 !i10b 1
-Z9 !s108 1620868206.000000
+Z9 !s108 1620877523.000000
 Z10 !s90 -reportprogress|300|-93|-work|work|C:/Users/clayt/Desktop/Sistemas Digitais/Sistemas-Digitais-VHDL/Full Adder/Full_Adder.vhd|
 Z11 !s107 C:/Users/clayt/Desktop/Sistemas Digitais/Sistemas-Digitais-VHDL/Full Adder/Full_Adder.vhd|
 !i113 1
@@ -36,12 +36,12 @@ Artl
 R2
 R3
 R4
-Z14 DEx4 work 10 full_adder 0 22 [N_:nie5gD<fVg4?[NWOS0
+Z14 DEx4 work 10 full_adder 0 22 6NX1z<^Y7m3QEkT7^Cnh;2
 !i122 0
-l23
-L17 23
-V>H9:B^:95G1LnZV[=0oh03
-!s100 hDmVB^4dKc7>V:Rf]^h=A2
+l21
+L18 12
+V:OTgb`GN9X6LF2@PW6C@R1
+!s100 <5f:FQ:23NmUfb<nVL;1z2
 R7
 31
 R8
@@ -66,9 +66,9 @@ V?cUn;oiAkl=_56dnEO@JB3
 !s100 _kX^WTlMa9o0c098GUGVW0
 R7
 32
-Z18 !s110 1620868222
+Z18 !s110 1620877540
 !i10b 1
-Z19 !s108 1620868222.000000
+Z19 !s108 1620877540.000000
 Z20 !s90 -reportprogress|300|-work|work|C:/Users/clayt/Desktop/Sistemas Digitais/Sistemas-Digitais-VHDL/Full Adder/tb_Full_Adder.vhd|
 !s107 C:/Users/clayt/Desktop/Sistemas Digitais/Sistemas-Digitais-VHDL/Full Adder/tb_Full_Adder.vhd|
 !i113 1
