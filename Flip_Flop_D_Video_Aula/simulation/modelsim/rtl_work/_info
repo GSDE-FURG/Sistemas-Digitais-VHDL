@@ -1,0 +1,134 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/clayt/Desktop/Novo/Flip_Flop_D/simulation/modelsim
+Eflip_flop_d
+Z1 w1621029350
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R0
+Z4 8C:/Users/clayt/Desktop/Novo/Flip_Flop_D/Flip_Flop_D.vhd
+Z5 FC:/Users/clayt/Desktop/Novo/Flip_Flop_D/Flip_Flop_D.vhd
+l0
+L5 1
+VZdZ`0KhXgnkQ1KM_FGmHF1
+!s100 RBMPcCF?5gn4;bYA=Pf192
+Z6 OV;C;2020.1;71
+31
+Z7 !s110 1621029406
+!i10b 1
+Z8 !s108 1621029406.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/clayt/Desktop/Novo/Flip_Flop_D/Flip_Flop_D.vhd|
+Z10 !s107 C:/Users/clayt/Desktop/Novo/Flip_Flop_D/Flip_Flop_D.vhd|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Artl
+R2
+R3
+DEx4 work 11 flip_flop_d 0 22 ZdZ`0KhXgnkQ1KM_FGmHF1
+!i122 0
+l18
+L16 21
+VbA@<I`P;e63ME>h0`L8ja3
+!s100 fie`8`;;4Bolz0DIc=8kI0
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eflip_flop_d_em_serie_videoaula
+Z13 w1621029367
+R2
+R3
+!i122 1
+R0
+Z14 8C:/Users/clayt/Desktop/Novo/Flip_Flop_D/Flip_Flop_D_Em_Serie_VideoAula.vhd
+Z15 FC:/Users/clayt/Desktop/Novo/Flip_Flop_D/Flip_Flop_D_Em_Serie_VideoAula.vhd
+l0
+L7 1
+VTneIJ`XV6z2OXH?iZ99Pb2
+!s100 I]LiPGlkPVg<n9Q14Za>o3
+R6
+31
+R7
+!i10b 1
+R8
+Z16 !s90 -reportprogress|300|-93|-work|work|C:/Users/clayt/Desktop/Novo/Flip_Flop_D/Flip_Flop_D_Em_Serie_VideoAula.vhd|
+Z17 !s107 C:/Users/clayt/Desktop/Novo/Flip_Flop_D/Flip_Flop_D_Em_Serie_VideoAula.vhd|
+!i113 1
+R11
+R12
+Artl
+R2
+R3
+DEx4 work 30 flip_flop_d_em_serie_videoaula 0 22 TneIJ`XV6z2OXH?iZ99Pb2
+!i122 1
+l21
+L15 20
+V^mUbP_ij8OPa1:<=VK9f@2
+!s100 dNF_@B[nHLNME@A>cBl442
+R6
+31
+R7
+!i10b 1
+R8
+R16
+R17
+!i113 1
+R11
+R12
+Etb_flip_flop_d_em_serie_videoaula
+Z18 w1621029363
+R2
+R3
+!i122 2
+R0
+Z19 8C:/Users/clayt/Desktop/Novo/Flip_Flop_D/tb_Flip_Flop_D_Em_Serie_VideoAula.vhd
+Z20 FC:/Users/clayt/Desktop/Novo/Flip_Flop_D/tb_Flip_Flop_D_Em_Serie_VideoAula.vhd
+l0
+L6 1
+VAPLm=f`j93j8ml;W7Z5=R0
+!s100 ;fe^DRQ[4bifldGVg<d;O3
+R6
+32
+Z21 !s110 1621029425
+!i10b 1
+Z22 !s108 1621029425.000000
+Z23 !s90 -reportprogress|300|-work|work|C:/Users/clayt/Desktop/Novo/Flip_Flop_D/tb_Flip_Flop_D_Em_Serie_VideoAula.vhd|
+!s107 C:/Users/clayt/Desktop/Novo/Flip_Flop_D/tb_Flip_Flop_D_Em_Serie_VideoAula.vhd|
+!i113 1
+Z24 o-work work
+R12
+Artl
+R2
+R3
+DEx4 work 33 tb_flip_flop_d_em_serie_videoaula 0 22 APLm=f`j93j8ml;W7Z5=R0
+!i122 2
+l23
+L12 74
+Vn8ggQHgLbZD>386oQ90cC3
+!s100 >1>hh9Kj5_DoMX6CMk@VP2
+R6
+32
+R21
+!i10b 1
+R22
+R23
+Z25 !s107 C:/Users/clayt/Desktop/Novo/Flip_Flop_D/tb_Flip_Flop_D_Em_Serie_VideoAula.vhd|
+!i113 1
+R24
+R12

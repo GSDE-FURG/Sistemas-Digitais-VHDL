@@ -1,0 +1,32 @@
+|Flip_Flop_D_Em_Serie_VideoAula
+clock => Flip_Flop_D:FF2.clock
+clock => Flip_Flop_D:FF1.clock
+clock => Flip_Flop_D:FF0.clock
+Reset => Flip_Flop_D:FF2.Reset
+Reset => Flip_Flop_D:FF1.Reset
+Reset => Flip_Flop_D:FF0.Reset
+D_in => Flip_Flop_D:FF2.D_in
+Q <= Flip_Flop_D:FF0.Q
+
+
+|Flip_Flop_D_Em_Serie_VideoAula|Flip_Flop_D:FF2
+clock => Q~reg0.CLK
+reset => Q~reg0.ACLR
+D_in => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Flip_Flop_D_Em_Serie_VideoAula|Flip_Flop_D:FF1
+clock => Q~reg0.CLK
+reset => Q~reg0.ACLR
+D_in => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Flip_Flop_D_Em_Serie_VideoAula|Flip_Flop_D:FF0
+clock => Q~reg0.CLK
+reset => Q~reg0.ACLR
+D_in => Q~reg0.DATAIN
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

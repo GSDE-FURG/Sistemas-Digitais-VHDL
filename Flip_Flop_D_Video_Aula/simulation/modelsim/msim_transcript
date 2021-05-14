@@ -1,0 +1,75 @@
+# Reading pref.tcl
+# do Flip_Flop_D_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/Users/clayt/OneDrive/Documents/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/clayt/Desktop/Novo/Flip_Flop_D/Flip_Flop_D.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:56:46 on May 14,2021
+# vcom -reportprogress 300 -93 -work work C:/Users/clayt/Desktop/Novo/Flip_Flop_D/Flip_Flop_D.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Flip_Flop_D
+# -- Compiling architecture RTL of Flip_Flop_D
+# End time: 18:56:46 on May 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/clayt/Desktop/Novo/Flip_Flop_D/Flip_Flop_D_Em_Serie_VideoAula.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:56:46 on May 14,2021
+# vcom -reportprogress 300 -93 -work work C:/Users/clayt/Desktop/Novo/Flip_Flop_D/Flip_Flop_D_Em_Serie_VideoAula.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Flip_Flop_D_Em_Serie_VideoAula
+# -- Compiling architecture rtl of Flip_Flop_D_Em_Serie_VideoAula
+# End time: 18:56:46 on May 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vcom -reportprogress 300 -work work C:/Users/clayt/Desktop/Novo/Flip_Flop_D/tb_Flip_Flop_D_Em_Serie_VideoAula.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 18:57:05 on May 14,2021
+# vcom -reportprogress 300 -work work C:/Users/clayt/Desktop/Novo/Flip_Flop_D/tb_Flip_Flop_D_Em_Serie_VideoAula.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb_Flip_Flop_D_Em_Serie_VideoAula
+# -- Compiling architecture rtl of tb_Flip_Flop_D_Em_Serie_VideoAula
+# End time: 18:57:05 on May 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -gui -l msim_transcript work.tb_flip_flop_d_em_serie_videoaula
+# vsim -gui -l msim_transcript work.tb_flip_flop_d_em_serie_videoaula 
+# Start time: 18:57:16 on May 14,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_flip_flop_d_em_serie_videoaula(rtl)
+# Loading work.flip_flop_d_em_serie_videoaula(rtl)
+# Loading work.flip_flop_d(rtl)
+# Trace back: Error QStructure::sort: invalid command name ""
+#   <6:C:/mtitcl/vsim/qstructure.tc_:2478: ::QStructure::sort .main_pane.structure 0 ascending
+#   <5:eval:1: ::QStructure::structsort .main_pane.structure 0 ascending
+#   <4:eval:1: ::namespace inscope ::QStructure {structsort .main_pane.structure} 0 ascending
+#   >3:proc:26: ::.main_pane.structure.interior.cs.body.struct sort 0 ascending
+#   >2:proc:10: ::.main_pane.structure.interior.cs.body.struct _initializeSortColumn
+#   <1:eval:1: ::namespace inscope ::vsimwidgets::Hierarchy {::.main_pane.structure.interior.cs.body.struct _initializeSortColumn}
+add wave -position insertpoint  \
+sim:/tb_flip_flop_d_em_serie_videoaula/clock_tb \
+sim:/tb_flip_flop_d_em_serie_videoaula/D_tb \
+sim:/tb_flip_flop_d_em_serie_videoaula/Q_tb \
+sim:/tb_flip_flop_d_em_serie_videoaula/reset_tb
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: clayt  Hostname: DESKTOP-J44ISJM  ProcessID: 14812
+#           Attempting to use alternate WLF file "./wlftnmcv3t".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftnmcv3t
+run
+# End time: 18:57:49 on May 14,2021, Elapsed time: 0:00:33
+# Errors: 0, Warnings: 2
