@@ -10,7 +10,7 @@ z2
 cModel Technology
 Z0 dC:/Users/clayt/Desktop/Sistemas Digitais/Sistemas-Digitais-VHDL/Flip_Flop_D_Serie/simulation/modelsim
 Eflip_flop_d_serie
-Z1 w1620925631
+Z1 w1621003577
 Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
 !i122 0
@@ -19,13 +19,13 @@ Z4 8C:/Users/clayt/Desktop/Sistemas Digitais/Sistemas-Digitais-VHDL/Flip_Flop_D_
 Z5 FC:/Users/clayt/Desktop/Sistemas Digitais/Sistemas-Digitais-VHDL/Flip_Flop_D_Serie/Flip_Flop_D_Serie.vhd
 l0
 L5 1
-VZjiafoEbldK=`nJLIVgmA0
-!s100 LVX=ZWed3LZH=?B_8hbzO3
+V?]8d[Cfd]3;;i9=YZSZCb0
+!s100 1FmjLY73=dOh_e5hZna]m3
 Z6 OV;C;2020.1;71
 31
-Z7 !s110 1620925674
+Z7 !s110 1621003619
 !i10b 1
-Z8 !s108 1620925674.000000
+Z8 !s108 1621003619.000000
 Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/clayt/Desktop/Sistemas Digitais/Sistemas-Digitais-VHDL/Flip_Flop_D_Serie/Flip_Flop_D_Serie.vhd|
 Z10 !s107 C:/Users/clayt/Desktop/Sistemas Digitais/Sistemas-Digitais-VHDL/Flip_Flop_D_Serie/Flip_Flop_D_Serie.vhd|
 !i113 1
@@ -34,12 +34,12 @@ Z12 tExplicit 1 CvgOpt 0
 Artl
 R2
 R3
-Z13 DEx4 work 17 flip_flop_d_serie 0 22 ZjiafoEbldK=`nJLIVgmA0
+Z13 DEx4 work 17 flip_flop_d_serie 0 22 ?]8d[Cfd]3;;i9=YZSZCb0
 !i122 0
 l20
-L16 27
-Vc[1a2]1QXO_7VkmM4VJ3]2
-!s100 _ZKdR`Je?9cZN[;DcD3fU2
+L17 27
+V1U4OeId@haJ7XDX`ABc@21
+!s100 ;P=ZBh@e4iYZ:eVnfW?VX2
 R6
 31
 R7
@@ -51,10 +51,10 @@ R10
 R11
 R12
 Etb_flip_flop_d_serie
-Z14 w1620927365
+Z14 w1621003250
 R2
 R3
-!i122 5
+!i122 1
 R0
 Z15 8C:/Users/clayt/Desktop/Sistemas Digitais/Sistemas-Digitais-VHDL/Flip_Flop_D_Serie/tb_Flip_Flop_D_Serie.vhd
 Z16 FC:/Users/clayt/Desktop/Sistemas Digitais/Sistemas-Digitais-VHDL/Flip_Flop_D_Serie/tb_Flip_Flop_D_Serie.vhd
@@ -64,31 +64,31 @@ V9bmU`5ZlET=onE1V]4Y9`3
 !s100 :74k8Q__C7eGIFM?ODhmU0
 R6
 32
-Z17 !s110 1620927564
+Z17 !s110 1621003630
 !i10b 1
-Z18 !s108 1620927564.000000
+Z18 !s108 1621003630.000000
 Z19 !s90 -reportprogress|300|-work|work|C:/Users/clayt/Desktop/Sistemas Digitais/Sistemas-Digitais-VHDL/Flip_Flop_D_Serie/tb_Flip_Flop_D_Serie.vhd|
-Z20 !s107 C:/Users/clayt/Desktop/Sistemas Digitais/Sistemas-Digitais-VHDL/Flip_Flop_D_Serie/tb_Flip_Flop_D_Serie.vhd|
+!s107 C:/Users/clayt/Desktop/Sistemas Digitais/Sistemas-Digitais-VHDL/Flip_Flop_D_Serie/tb_Flip_Flop_D_Serie.vhd|
 !i113 1
-Z21 o-work work
+Z20 o-work work
 R12
 Atb
 R13
 R2
 R3
-Z22 DEx4 work 20 tb_flip_flop_d_serie 0 22 9bmU`5ZlET=onE1V]4Y9`3
-!i122 5
+DEx4 work 20 tb_flip_flop_d_serie 0 22 9bmU`5ZlET=onE1V]4Y9`3
+!i122 1
 l18
 L7 64
-VP9;P:c5X46b;RN^VkghJK0
-!s100 OFIb;lf06ohlHCH^BP2`42
+VoP4cG09M@^45=zCN9;<lF0
+!s100 k>8YE0zOgf_SS]7J?LoP23
 R6
 32
 R17
 !i10b 1
 R18
 R19
-R20
+Z21 !s107 C:/Users/clayt/Desktop/Sistemas Digitais/Sistemas-Digitais-VHDL/Flip_Flop_D_Serie/tb_Flip_Flop_D_Serie.vhd|
 !i113 1
-R21
+R20
 R12

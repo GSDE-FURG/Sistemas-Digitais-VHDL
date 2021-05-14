@@ -9,17 +9,17 @@ library ieee;
   signal  clock_tb      : std_logic;  
   signal  reset_tb      : std_logic        := '0';  
   signal  D_tb 			: std_logic        := '0';  
-  signal  Q_tb  			: std_logic_vector (2 downto 0);  
-  
+  signal  Q_tb  			: std_logic;  
+  signal  Q_buffer  			: std_logic_vector (3 downto 0);  
   
   signal Clk : std_logic := '1'; -- Clock
   
  
 begin 
 
-FF_EM_SERIE : entity  work.Flip_Flop_D_Serie port map (clock_tb, reset_tb, D_tb, Q_tb);
+	FF_EM_SERIE : entity  work.Flip_Flop_D_Serie port map (clock_tb, reset_tb, D_tb, Q_tb, Q_buffer);
   
- -- clock generation  
+  -- clock generation  
  
   Clk  <= not Clk after 5 ns;  
   clock_tb <= Clk;  

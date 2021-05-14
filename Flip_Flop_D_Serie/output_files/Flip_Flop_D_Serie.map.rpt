@@ -1,5 +1,5 @@
 Analysis & Synthesis report for Flip_Flop_D_Serie
-Thu May 13 14:39:09 2021
+Fri May 14 11:46:34 2021
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -43,16 +43,16 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Thu May 13 14:39:09 2021       ;
+; Analysis & Synthesis Status        ; Successful - Fri May 14 11:46:34 2021       ;
 ; Quartus Prime Version              ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                      ; Flip_Flop_D_Serie                           ;
 ; Top-level Entity Name              ; Flip_Flop_D_Serie                           ;
 ; Family                             ; Cyclone IV E                                ;
-; Total logic elements               ; 3                                           ;
+; Total logic elements               ; 4                                           ;
 ;     Total combinational functions  ; 0                                           ;
-;     Dedicated logic registers      ; 3                                           ;
-; Total registers                    ; 3                                           ;
-; Total pins                         ; 6                                           ;
+;     Dedicated logic registers      ; 4                                           ;
+; Total registers                    ; 4                                           ;
+; Total pins                         ; 8                                           ;
 ; Total virtual pins                 ; 0                                           ;
 ; Total memory bits                  ; 0                                           ;
 ; Embedded Multiplier 9-bit elements ; 0                                           ;
@@ -176,7 +176,7 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------+-------------+
 ; Resource                                    ; Usage       ;
 +---------------------------------------------+-------------+
-; Estimated Total logic elements              ; 3           ;
+; Estimated Total logic elements              ; 4           ;
 ;                                             ;             ;
 ; Total combinational functions               ; 0           ;
 ; Logic element usage by number of LUT inputs ;             ;
@@ -188,18 +188,18 @@ https://fpgasoftware.intel.com/eula.
 ;     -- normal mode                          ; 0           ;
 ;     -- arithmetic mode                      ; 0           ;
 ;                                             ;             ;
-; Total registers                             ; 3           ;
-;     -- Dedicated logic registers            ; 3           ;
+; Total registers                             ; 4           ;
+;     -- Dedicated logic registers            ; 4           ;
 ;     -- I/O registers                        ; 0           ;
 ;                                             ;             ;
-; I/O pins                                    ; 6           ;
+; I/O pins                                    ; 8           ;
 ;                                             ;             ;
 ; Embedded Multiplier 9-bit elements          ; 0           ;
 ;                                             ;             ;
 ; Maximum fan-out node                        ; clock~input ;
-; Maximum fan-out                             ; 3           ;
-; Total fan-out                               ; 18          ;
-; Average fan-out                             ; 1.20        ;
+; Maximum fan-out                             ; 4           ;
+; Total fan-out                               ; 25          ;
+; Average fan-out                             ; 1.25        ;
 +---------------------------------------------+-------------+
 
 
@@ -208,7 +208,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+---------------------+-------------------+--------------+
 ; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name ; Entity Name       ; Library Name ;
 +----------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+---------------------+-------------------+--------------+
-; |Flip_Flop_D_Serie         ; 0 (0)               ; 3 (3)                     ; 0           ; 0            ; 0       ; 0         ; 6    ; 0            ; |Flip_Flop_D_Serie  ; Flip_Flop_D_Serie ; work         ;
+; |Flip_Flop_D_Serie         ; 0 (0)               ; 4 (4)                     ; 0           ; 0            ; 0       ; 0         ; 8    ; 0            ; |Flip_Flop_D_Serie  ; Flip_Flop_D_Serie ; work         ;
 +----------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+---------------------+-------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -218,10 +218,10 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 3     ;
+; Total registers                              ; 4     ;
 ; Number of registers using Synchronous Clear  ; 0     ;
 ; Number of registers using Synchronous Load   ; 0     ;
-; Number of registers using Asynchronous Clear ; 3     ;
+; Number of registers using Asynchronous Clear ; 4     ;
 ; Number of registers using Asynchronous Load  ; 0     ;
 ; Number of registers using Clock Enable       ; 0     ;
 ; Number of registers using Preset             ; 0     ;
@@ -233,9 +233,9 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-------------------+---------------------------------+
 ; Type              ; Count                           ;
 +-------------------+---------------------------------+
-; boundary_port     ; 6                               ;
-; cycloneiii_ff     ; 3                               ;
-;     CLR           ; 3                               ;
+; boundary_port     ; 8                               ;
+; cycloneiii_ff     ; 4                               ;
+;     CLR           ; 4                               ;
 ;                   ;                                 ;
 ; Max LUT depth     ; 0.00                            ;
 ; Average LUT depth ; 0.00                            ;
@@ -257,12 +257,12 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
-    Info: Processing started: Thu May 13 14:38:58 2021
+    Info: Processing started: Fri May 14 11:46:24 2021
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Flip_Flop_D_Serie -c Flip_Flop_D_Serie
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info (12021): Found 2 design units, including 1 entities, in source file flip_flop_d_serie.vhd
-    Info (12022): Found design unit 1: Flip_Flop_D_Serie-RTL File: C:/Users/clayt/Desktop/Sistemas Digitais/Sistemas-Digitais-VHDL/Flip_Flop_D_Serie/Flip_Flop_D_Serie.vhd Line: 16
+    Info (12022): Found design unit 1: Flip_Flop_D_Serie-RTL File: C:/Users/clayt/Desktop/Sistemas Digitais/Sistemas-Digitais-VHDL/Flip_Flop_D_Serie/Flip_Flop_D_Serie.vhd Line: 17
     Info (12023): Found entity 1: Flip_Flop_D_Serie File: C:/Users/clayt/Desktop/Sistemas Digitais/Sistemas-Digitais-VHDL/Flip_Flop_D_Serie/Flip_Flop_D_Serie.vhd Line: 5
 Info (12021): Found 2 design units, including 1 entities, in source file tb_flip_flop_d_serie.vhd
     Info (12022): Found design unit 1: tb_Flip_Flop_D_Serie-tb File: C:/Users/clayt/Desktop/Sistemas Digitais/Sistemas-Digitais-VHDL/Flip_Flop_D_Serie/tb_Flip_Flop_D_Serie.vhd Line: 7
@@ -271,14 +271,14 @@ Info (12127): Elaborating entity "Flip_Flop_D_Serie" for the top level hierarchy
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 9 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 12 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 3 input pins
-    Info (21059): Implemented 3 output pins
-    Info (21061): Implemented 3 logic cells
+    Info (21059): Implemented 5 output pins
+    Info (21061): Implemented 4 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4782 megabytes
-    Info: Processing ended: Thu May 13 14:39:09 2021
-    Info: Elapsed time: 00:00:11
-    Info: Total CPU time (on all processors): 00:00:24
+    Info: Peak virtual memory: 4790 megabytes
+    Info: Processing ended: Fri May 14 11:46:34 2021
+    Info: Elapsed time: 00:00:10
+    Info: Total CPU time (on all processors): 00:00:23
 
 
