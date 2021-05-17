@@ -1,0 +1,27 @@
+
+-- library
+library ieee;
+use ieee.std_logic_1164.all;
+ 
+ 
+
+entity Circuit_C10 is
+  port 
+	(
+    a    : in  std_logic;
+    b    : in  std_logic;
+    y : out std_logic
+    
+	 );
+end Circuit_C10;
+ 
+ 
+architecture comportamento_Circuit_C10 of Circuit_C10 is 
+  
+	signal sinal_intermediario : std_logic; -- Sinal intermediario
+
+begin
+  
+  y <= a and b; 
+  
+end comportamento_Circuit_C10;

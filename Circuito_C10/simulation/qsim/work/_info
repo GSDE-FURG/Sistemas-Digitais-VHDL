@@ -1,0 +1,101 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/clayt/Desktop/Circuito_C10/simulation/qsim
+Ecircuit_c10
+Z1 w1621114047
+Z2 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z3 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 WOh:M[al;oVzG5c`<He>D0
+Z4 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z7 DPx10 cycloneive 21 cycloneive_components 0 22 zGMDhP>8e@2k@f0e<PY]k2
+!i122 20
+R0
+Z8 8Circuit_C10.vho
+Z9 FCircuit_C10.vho
+l0
+L35 1
+Va5n;>73jPazlJ>hlMg8ce3
+!s100 9@Smc:T9o]Lk3QiclP2aa0
+Z10 OV;C;2020.1;71
+32
+Z11 !s110 1621114049
+!i10b 1
+Z12 !s108 1621114049.000000
+Z13 !s90 -work|work|Circuit_C10.vho|
+Z14 !s107 Circuit_C10.vho|
+!i113 1
+Z15 o-work work
+Z16 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 11 circuit_c10 0 22 a5n;>73jPazlJ>hlMg8ce3
+!i122 20
+l81
+L49 186
+V@HkmTd6lI@YOR0DlP9f?U3
+!s100 2g>i6Xj6o7<WaVSo8j5_c1
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Ecircuit_c10_vhd_vec_tst
+Z17 w1621114046
+R5
+R6
+!i122 21
+R0
+Z18 8Waveform1.vwf.vht
+Z19 FWaveform1.vwf.vht
+l0
+L32 1
+VoR8=[352F3U=PDkXU^:b23
+!s100 LTEVl?Gzd22HS_6AX6T@K1
+R10
+32
+R11
+!i10b 1
+R12
+Z20 !s90 -work|work|Waveform1.vwf.vht|
+Z21 !s107 Waveform1.vwf.vht|
+!i113 1
+R15
+R16
+Acircuit_c10_arch
+R5
+R6
+Z22 DEx4 work 23 circuit_c10_vhd_vec_tst 0 22 oR8=[352F3U=PDkXU^:b23
+!i122 21
+l59
+L34 96
+Va>M2[8VIUG6FKm2i4nz693
+!s100 RV>JI8Q^<?nNe5JJWdYoQ0
+R10
+32
+R11
+!i10b 1
+R12
+R20
+R21
+!i113 1
+R15
+R16

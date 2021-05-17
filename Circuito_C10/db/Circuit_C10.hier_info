@@ -1,0 +1,71 @@
+|Circuit_C10
+G1gat => Porta_Nand:U0.a
+G2gat => Porta_Nand:U0.b
+G3gat => Porta_Nand:U1.a
+G4gat => Porta_Nand:U1.b
+G5gat => Porta_Inv:U2.a
+G6gat => Porta_And:U5.a
+G7gat => Porta_And:U5.b
+G7gat => Porta_And:U6.a
+G8gat => Porta_Inv:U3.a
+Saida_x << Porta_OR:U9.y
+
+
+|Circuit_C10|Porta_Nand:U0
+a => y.IN0
+b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Circuit_C10|Porta_Inv:U2
+a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Circuit_C10|Porta_Inv:U3
+a => y.DATAIN
+y <= a.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Circuit_C10|Porta_Nand:U4
+a => y.IN0
+b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Circuit_C10|Porta_Nand:U1
+a => y.IN0
+b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Circuit_C10|Porta_And:U5
+a => y.IN0
+b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Circuit_C10|Porta_And:U6
+a => y.IN0
+b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Circuit_C10|Porta_And:U8
+a => y.IN0
+b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Circuit_C10|Porta_Nand:U7
+a => y.IN0
+b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Circuit_C10|Porta_OR:U9
+a => y.IN0
+b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+

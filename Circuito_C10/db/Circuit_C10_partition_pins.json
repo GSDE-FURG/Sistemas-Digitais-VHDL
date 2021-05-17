@@ -1,0 +1,45 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "Saida_x",
+					"strict" : false
+				},
+				{
+					"name" : "G8gat",
+					"strict" : false
+				},
+				{
+					"name" : "G6gat",
+					"strict" : false
+				},
+				{
+					"name" : "G7gat",
+					"strict" : false
+				},
+				{
+					"name" : "G5gat",
+					"strict" : false
+				},
+				{
+					"name" : "G1gat",
+					"strict" : false
+				},
+				{
+					"name" : "G2gat",
+					"strict" : false
+				},
+				{
+					"name" : "G3gat",
+					"strict" : false
+				},
+				{
+					"name" : "G4gat",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
